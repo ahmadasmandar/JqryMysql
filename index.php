@@ -1,4 +1,5 @@
 <?php
+header('WWW-Authenticate: Negotiate');
 if (isset($_POST['name'])=== true && empty($_POST['name'])=== false){
     $name=$_POST['name'];
 }
